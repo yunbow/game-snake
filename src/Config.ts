@@ -1,0 +1,26 @@
+export const GAME_CONFIG = {
+  GRID_SIZE: 20,
+  CANVAS_WIDTH: 400,
+  CANVAS_HEIGHT: 400,
+  INITIAL_SPEED: 7,
+  MAX_SPEED: 15,
+  SPEED_INCREMENT: 1,
+  SCORE_FOR_SPEED_INCREASE: 5,
+} as const;
+
+export const COLORS = {
+  BACKGROUND: '#111',
+  SNAKE_HEAD: '#00FF00',
+  SNAKE_BODY: '#00CC00',
+  FOOD: '#FF0000',
+  GRID_LINE: 'rgba(255, 255, 255, 0.05)',
+  TEXT: '#333',
+  BUTTON_PRIMARY: '#4CAF50',
+  BUTTON_PRIMARY_HOVER: '#45a049',
+  BUTTON_SECONDARY: '#f44336',
+  BUTTON_SECONDARY_HOVER: '#d32f2f',
+} as const;
+
+export const STORAGE_KEYS = {
+  HIGH_SCORE: 'snakeHighScore',
+} as const;
