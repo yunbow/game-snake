@@ -3,7 +3,7 @@
 React 18とTypeScript、Atomic Designパターンで構築されたスネークゲームアプリケーションです。
 
 ## デモプレイ
-https://yunbow.github.io/game-snake/demo/
+https://yunbow.github.io/react-game-snake/demo/
 
 ## 主要機能
 
